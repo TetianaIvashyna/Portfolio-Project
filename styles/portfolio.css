@@ -13,6 +13,19 @@
 }
 
 @media (max-width: 960px) {
+
+    .hero {
+        padding: 80px 10px;
+    }
+
+    .hero h1 {
+        font-size: 60px;
+    }
+
+    .project-description h2 {
+        font-size: 42px;
+    }
+
     .project-description {
         padding: 0;
         text-align: center;
@@ -45,13 +58,14 @@ h2 {
 
 h1 {
     font-size: 96px;
+    line-height: 1.5;
 }
 
 .hero h2 {
     font-family: var(--text-font);
     font-size: 24px;
     font-weight: 400;
-    line-height: 2;
+    line-height: 1.5;
     color: var(--secondary-color);
 }
 
