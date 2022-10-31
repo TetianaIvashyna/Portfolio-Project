@@ -21,10 +21,34 @@
     <!-- my css-->
     <link rel="stylesheet" href="styles/portfolio.css">
     <script src="https://kit.fontawesome.com/e9b160d360.js" crossorigin="anonymous"></script>
-    <title>Mariana Ivashyna | About</title>
+    <meta name="description" content="Mariana Ivashyna is a front-end engineer based in Eindhoven, the Netherlands">
+    <title>About Mariana Ivashyna, a front-end developer</title>
 </head>
 
 <body>
+    <div class="container">
+        <nav class=" d-flex justify-content-between">
+            <a href="index.html" title="Mariana's homepage">
+                <img src="images/logo.png" alt="Mariana logo" class="logo d-none d-md-block">
+                <img src="images/small-logo.png" alt="Mariana logo" class="logo d-block d-md-none">
+            </a>
+            <ul>
+                <li>
+                    <a href="index.html" title="Mariana's Homepage"> Home</a>
+                </li>
+                <li class="active">
+                    <a href="about.html" title="About Mariana"> About</a>
+                </li>
+                <li>
+                    <a href="work.html" title="Mariana's projects"> Work</a>
+                </li>
+                <li>
+                    <a href="contact.html" title="Contact Mariana"> Contact</a>
+                </li>
+            </ul>
+    
+        </nav>
+    </div>
     <div class="container">
         <div class="section">
             <div class="row">
@@ -40,14 +64,51 @@
                             For anyone who wants to start learning code, this workshop is very interesting. You will be challenged with different
                             exercises, and everything is well explained, homework and deadlines are good for keep focus
                         </p>
-                        <a href="" class="btn btn-brending">View all project</a>
+                        <a href="work.html" title="Projects of Mariana Ivashyna" class="btn btn-brending">View all project</a>
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <img src="images/my-photo.png" alt="a picture of a girl" class="img-fluid rounded">
+                    <img src="images/my-photo.png" alt="A picture of Mariana" class="img-fluid rounded">
                 </div>
             </div>
         </div>
+        <footer>
+            <div class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
+                <div>
+                    <h3>
+                        Work Inquiry
+                    </h3>
+                    <p class="text-muted ms-3">
+                        Let's work together
+                    </p>
+                </div>
+                <div>
+                    <a href="contact.html" class="btn btn-brending mt-3" title="Contact Mariana">Contact me</a>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center mb-5">
+                <a href="mailto:ivashyna.t@gmail.com" title="Email of Mariana" class="email-link">ivashyna.t@gmail.com</a>
+            </div>
+            <div class="cosial-links d-flex justify-content-center">
+                <a href="https://www.instagram.com/ivashynatanja" target="_blank" title="Instagram Profile"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/TetianaIvashyna" target="_blank" title="GitHub Profile"><i
+                        class="fa-brands fa-github"></i></a>
+                <a href="https://nl.linkedin.com/in/tetiana-ivashyna-a23568236" target="_blank" title="LinkedIn Profile"><i
+                        class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <div class="container d-flex justify-content-center pt-5">
+                <p class="text-muted d-none d-md-inline m-5">
+                    This project is coded by <a href="index.html" title="Mariana's homepage" class="text-reset">Mariana Ivashyna</a> due
+                    to SheCodes Workshop and is <a href="https://github.com/TetianaIvashyna/Portfolio-Project"
+                        title="the source code of the project" class="text-reset">open-sourced</a>
+                </p>
+                <p class="text-muted d-md-none d-inline">
+                    <a href="https://github.com/TetianaIvashyna/Portfolio-Project" title="the source code of the project"
+                        class="text-reset">source code</a>
+                </p>
+            </div>
+        </footer>
     </div>
 </body>
 </html>

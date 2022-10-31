@@ -14,11 +14,11 @@ font-family: 'Poppins', sans-serif;
 .hero {
     background-color: var(--primary-color);
     text-align: center;
-    padding: 160px 20px;
+    padding: 80px 20px;
 }
 
 .section {
-    padding: 160px 20px;
+    padding: 60px 20px;
 }
 
 .section h3 {
@@ -91,7 +91,7 @@ h1 {
     line-height: 1.5;
 }
 
-h4 {
+h3 {
     font-size: 48px;
 }
 
@@ -192,7 +192,7 @@ footer .contact-box p {
 @media (max-width: 960px) {
 
     .hero {
-        padding: 80px 10px;
+        padding: 50px 10px;
     }
 
     .hero h1 {
